@@ -1,0 +1,58 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    background-image: url(https://img.freepik.com/premium-photo/dark-grey-black-slate-texture-natural-pattern-with-high-resolution-background-design-art-work-black-stone-wall_263512-3591.jpg?w=740);background-repeat: no-repeat;background-size: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+body img{
+    width: 100%;
+    display: block;
+}
+body h1{
+    color: #fff;
+    font-size: 4rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 1.5rem 0;
+    text-transform: uppercase;
+}
+.counter-box{
+    padding: 2rem 5rem;
+    border-radius: 10px;
+}
+.counter-box button{
+    padding: 1.5rem 2.5rem;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    font-size: 3rem;
+    min-width: 150px;
+    color: #06ff13;
+    margin: 1.5rem;
+}
+.counter-box span{
+    color: #060aff;
+   
+    font-size: 3rem;
+    font-family: sans-serif;
+    padding: 1.5rem;
+}
+.reset{
+    width: 640px;
+    padding: 1.5rem 2.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: transparent;
+    border-radius: 15px;
+    margin: 1.5rem;
+    font-size: 2rem;
+    color: #ff0e06;
+}
